@@ -22,14 +22,7 @@
 .list-item {
   position: relative;
   font-weight: bold;
-
   width: 100%;
-  animation: fadeIn 2s;
-}
-
-@keyframes fadeIn {
-  0% {opacity: 0%;}
-  100% {opacity: 100%;}
 }
 
 .input-form {

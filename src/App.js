@@ -6,6 +6,7 @@ import InputGroup from 'react-bootstrap/InputGroup'
 import Alert from 'react-bootstrap/Alert'
 
 import './App.css';
+import './animate.min.css'
 
 export class App extends Component {
 
@@ -76,7 +77,7 @@ function List_Container(props) {
 function List_item(props) {
 
   return (
-    <div className="list-item">
+    <div className="list-item animate__animated animate__fadeIn">
       <Alert variant="info">{props.name}</Alert>
     </div>
     
